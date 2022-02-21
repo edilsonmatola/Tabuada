@@ -1,39 +1,70 @@
-body{
-    font: normal 15pt Arial;
-    background: rgb(70, 142, 236);
+body {
+  font: normal 15pt Arial;
+  background: rgb(70, 142, 236);
 }
 
-header{
-    color: white;
-    text-align: center;
+header {
+  color: white;
+  text-align: center;
 }
 
-section{
-    background: white;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+section {
+  background: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
 select {
-    width: fit-content;
+  width: fit-content;
 }
 
-#insert{
-    text-align: center;
+select::-webkit-scrollbar{
+    width: 0 !important;
 }
 
-#tabDisplay{
-    text-align: center;
+#insert {
+  text-align: center;
 }
 
-footer{
-    text-align: center;
-    color: white;
+#tabDisplay {
+  text-align: center;
+}
+
+#seltab::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+#seltab {
+  overflow: -moz-scrollbars-none;
+}
+
+#seltab {
+  -ms-overflow-style: none;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
